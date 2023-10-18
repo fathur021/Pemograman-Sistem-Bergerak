@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Tempatkan kode XML di sini -->
+    <menu
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ActivityMenu">
+
+        <item
+            android:id="@+id/action_search"
+            android:title="Search"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_notification"
+            android:title="Notification"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_profile"
+            android:title="Profile"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_message"
+            android:title="Message"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_upload"
+            android:title="Upload"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/action_logout"
+            android:title="Logout"
+            app:showAsAction="ifRoom" />
+
+    </menu>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
